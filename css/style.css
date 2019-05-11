@@ -1,56 +1,56 @@
-body{
+body {
   text-align: center;
 }
-.logo{
+
+.logo {
   width: 120px;
 }
 
-.rnav{
+.navbar {
   position: relative;
   background-color: inherit;
   padding: 10px;
 }
 
-.bg{
-  background-color: red;
+.bg {
+  background-image: url("/home/aakash/Desktop/room-tracker/image/room2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100vw 60vw;
+  width: 100vw;
+  height: 70rem;
 }
 
-.home{
+.home {
   margin: 0 auto;
   width: 50%;
-
 }
 
-
-#head-name{
-  padding:2rem 2.5rem;
-  font-size: 4rem;
+#head-name {
+  margin: 10vw auto 5vw;
+  font-size: 5vw;
   font-family: "serif-bold";
   text-align: center;
   color: #04102d
-  text-transform:uppercase;
-
 }
-.description{
-  padding: 2px 10px 2px 15px;
-  font-size: 2rem;
-  font-family:sans-serif;
+
+.description {
+  margin:  2px auto 4vw;
+  font-size: 2vw;
+  font-family: sans-serif;
   color: black;
   text-align: center;
-
 }
 
-.form1{
-  padding:1px 50px;
-
+.form1 {
+  padding: 1px 50px;
 }
-.form2{
 
-align-content: center;
-align-self: center;
+.form2 {
+  align-content: center;
+  align-self: center;
 }
-.btn2{
-  margin:auto  ;
-  text-align: center;
-  padding:.5rem;
+
+.btn2 {
+  margin: none;
+  padding: 1vw 0px;
 }
