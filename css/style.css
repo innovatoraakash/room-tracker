@@ -1,68 +1,56 @@
-body{
-  background-color: inherit;
+body {
+  text-align: center;
 }
-.logo{
+
+.logo {
   width: 120px;
 }
 
-}
-.rnav{
+.navbar {
   position: relative;
   background-color: inherit;
-  padding: 0;
+  padding: 10px;
+}
 
-}
-.nav-icon{
-  background-color: blue;
-}
-.bg{
-  background: url(https://www.meeru.com/wp-content/uploads/2017/08/MeeruIslandResortAndSpa-GardenRoom-2-Mobile-1.jpg);
-  background-size: 100vw 100vw;
-  height: 800px;
-  width: 100vw
+.bg {
+  background-image: url("/home/aakash/Desktop/room-tracker/image/room2.jpeg");
   background-repeat: no-repeat;
+  background-size: 100vw 60vw;
+  width: 100vw;
+  height: 70rem;
 }
-#head-name{
-  margin: 10px 20px;
-  padding: 10px 10px;
-  font-size: 6vw;
-  font-style: oblique;
-  align-items: center;
+
+.home {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#head-name {
+  margin: 10vw auto 5vw;
+  font-size: 5vw;
+  font-family: "serif-bold";
   text-align: center;
-  font-family: 'Alfa Slab One', cursive;
   color: #04102d
-
-
-
 }
-.description{
-  margin: 5px;
-  padding: 0px 10px;
-  font-size: 3vw;
-  align-items: center;
-  font-family:'Oswald', sans-serif;
-  color: hsl(248, 53%, 58%);
-  text-align: center;
 
-}
-.heading{
-  align-self: center;
+.description {
+  margin:  2px auto 4vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+  color: black;
   text-align: center;
 }
-.form{
+
+.form1 {
+  padding: 1px 50px;
+}
+
+.form2 {
   align-content: center;
-  margin: 50px 0px 10px 18.8vw ;
-
-  /* padding: 10px 10px 10px 30vw */
-}
-.form2{
-
-align-content: center;
-align-self: center;
-}
-.btn2{
-  margin:auto  ;
-  text-align: center;
   align-self: center;
-  align-content: center;
+}
+
+.btn2 {
+  margin: none;
+  padding: 1vw 0px;
 }
