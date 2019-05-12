@@ -1,37 +1,21 @@
-body {
-  text-align: center;
-}
-
-.logo {
-  width: 120px;
-}
-
-.navbar {
-  position: relative;
-  background-color: inherit;
-  padding: 10px;
-}
-
 .bg {
   background-image: url("/home/aakash/Desktop/room-tracker/image/room2.jpeg");
   background-repeat: no-repeat;
-  background-size: 100vw 60vw;
+  background-size: 100vw 65vw;
   width: 100vw;
-  height: 70rem;
+  height: 65vw;
 }
 
-.home {
-  margin: 0 auto;
-  width: 50%;
-}
-
-#head-name {
-  margin: 10vw auto 5vw;
-  font-size: 5vw;
-  font-family: "serif-bold";
+body {
   text-align: center;
-  color: #04102d
+  background-color:#d7edef;
 }
+
+.btn2 {
+  margin: none;
+  padding: 1vw 0px;
+}
+
 
 .description {
   margin:  2px auto 4vw;
@@ -50,7 +34,59 @@ body {
   align-self: center;
 }
 
-.btn2 {
-  margin: none;
-  padding: 1vw 0px;
+#head-name {
+  margin: 10vw auto 5vw;
+  font-size: 5vw;
+  font-family: "serif-bold";
+  text-align: center;
+  color: #04102d
 }
+
+.home {
+  margin: 0 auto;
+  width: 50%;
+}
+.home-size{
+  margin: 0 auto;
+  width: 75%;
+}
+
+  hr {
+  display: block;
+  margin-top: 0.6px;
+  margin-bottom: 0.6px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+
+}
+
+.logo {
+  width: 120px;
+}
+
+.navbar {
+  position: relative;
+  background-color: inherit;
+  padding: 10px;
+}
+
+.testimonial{
+ text-align: center;
+ color:#321d47;
+
+}
+.testimonial-image{
+
+  border-radius: 100%;
+  width:30%;
+  margin: 20% 8%;
+
+}
+.testimonial-item-2{
+  padding: 13% 17% 6%;
+}
+/* .room-image{
+  width: 16vw;
+
+} */
