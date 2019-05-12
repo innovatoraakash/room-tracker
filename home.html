@@ -14,61 +14,184 @@
   <section class="bg">
     <!-- navbar -->
 
-          <div>
-            <nav class="navbar navbar-expand-lg navbar-light rnav">
-              <a class="navbar-brand " href="#"> <img class="logo" src="image/1OvOIm.png" alt="rf"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light rnav">
+        <a class="navbar-brand " href="#"> <img class="logo" src="image/1OvOIm.png" alt="rf"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li>
-                </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
               </div>
-    </nav>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <div class="home">
-      <div class="heading">
-        <h1 id="head-name">ROOM TRACKER</h1>
-        <p class="description">Now Stop Wondering in Search of Best Shelther <br>We Are Here For You </p>
-      </div>
+      <div class="home">
+        <div class="heading">
+          <h1 id="head-name">ROOM TRACKER</h1>
+          <p class="description">Now Stop Wondering in Search of Best Shelther <br>We Are Here For You </p>
+        </div>
 
-      <!-- search form -->
-      <div class="input-group mb-3">
-        <input type="text" class="form-control bg-dark" placeholder="city name">
-        <div class="input-group-append">
-          <button class="btn btn-success" type="submit">Search</button>
+        <!-- search form -->
+        <div class="input-group mb-3">
+          <input type="text" class="form-control bg-dark" placeholder="city name">
+          <div class="input-group-append">
+            <button class="btn btn-success" type="submit">Search</button>
+          </div>
+        </div>
+        <div class="btn2">
+          <button type="button" class="btn btn-primary btn-lg col-2"> Post Room</button>
         </div>
       </div>
+  </section>
+  <hr>
 
-      <div class="btn2">
-        <button type="button" class="btn btn-primary btn-lg col-2"> Post Room</button>
+  <!-- trending rooms carousel -->
+  <section class="home-size">
+    <div class="">
+      <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="2000">
+            <img src="image/room3.jpeg" class="d-block w-100" alt="...">
+
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="image/room1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="image/room2.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-
   </section>
+  <hr>
 
-  <section class="about">
-    <h1>About us</h1>
+  <!-- room grid -->
+  <section class="home-size">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img class="room-image" src="image/room1.jpeg" alt="room">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="image/room1.jpeg" alt="room">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="image/room1.jpeg" alt="room">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="image/room1.jpeg" alt="room">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="image/room1.jpeg" alt="room">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="image/room1.jpeg" alt="room">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+  <hr>
 
+<!-- testimonials -->
+  <section class="testimonial home">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" >
+        <div class="carousel-item testmonial-item-2 active" data-interval="4000">
+          <h2>really beautiful rooms and im fan of the site</h2>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEyUEpJOnSuf9-7YbJBsOLDHbGMuUtyeLb-wi8l41yMt5kcbYoKQ" class="testimonial-image" alt="...">
+          <em>aakash,palpa</em>
+        </div>
+        <div class="carousel-item testmonial-item-2" data-interval="4000">
+            <h2>really beautiful rooms and im fan of the site</h2>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTro5S_IXhJBpjD1TCVw2sfw0WlXUhr3y6_cWdXLwUYJ_h0R304" class="testimonial-image" alt="...">
+          <em>shiva,nawalparasi</em>
+        </div>
+        <div class="carousel-item testmonial-item-2" data-interval="4000">
+            <h2>really beautiful rooms and im fan of the site</h2>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ38gBmHdZ61zxTKChxkXKl0q7YCdS3RxALKCslncOTizxKUL2PEg" class="testimonial-image" alt="...">
+          <em>keshav,dhading</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+    </div>
+  </section>
+  <hr>
+
+  <section>
 
   </section>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
