@@ -1,68 +1,155 @@
-body{
-  background-color: inherit;
+body {
+  text-align: center;
+  background-color:#d7edef;
 }
-.logo{
+
+h4{
+  margin: 5% auto;
+  padding: 45px 0px 0px;
+  font-family: cursive;
+
+}
+
+h3{
+  font-family: monospace;
+  font-weight: 600;
+}
+hr {
+  display: block;
+  margin-top: 0.6px;
+  margin-bottom: 0.6px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+
+}
+
+.logo {
   width: 120px;
 }
-
-}
-.rnav{
-  position: relative;
+.navbar {
+  position: inherit;
   background-color: inherit;
-  padding: 0;
+  padding: 10px;
 
 }
-.nav-icon{
-  background-color: blue;
-}
-.bg{
-  background: url(https://www.meeru.com/wp-content/uploads/2017/08/MeeruIslandResortAndSpa-GardenRoom-2-Mobile-1.jpg);
-  background-size: 100vw 100vw;
-  height: 800px;
-  width: 100vw
+.bg {
+  background-image: url("/home/aakash/Desktop/room-tracker/image/room2.jpeg");
   background-repeat: no-repeat;
+  background-size: 100vw 65vw;
+  width: 100vw;
+  height: 65vw;
 }
-#head-name{
-  margin: 10px 20px;
-  padding: 10px 10px;
-  font-size: 6vw;
-  font-style: oblique;
-  align-items: center;
+
+.description {
+  margin:  2px auto 4vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+  color: black;
   text-align: center;
-  font-family: 'Alfa Slab One', cursive;
+}
+
+.btn2 {
+  margin: none;
+  padding: 1vw 0px;
+}
+
+.form1 {
+  padding: 1px 50px;
+}
+
+.form2 {
+  align-content: center;
+  align-self: center;
+}
+
+
+#head-name {
+  margin: 10vw auto 5vw;
+  font-size: 5vw;
+  font-family: "serif-bold";
+  text-align: center;
   color: #04102d
-
-
-
 }
-.description{
-  margin: 5px;
-  padding: 0px 10px;
-  font-size: 3vw;
-  align-items: center;
-  font-family:'Oswald', sans-serif;
-  color: hsl(248, 53%, 58%);
+
+.home {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.home2{
+  padding: 20px;
+}
+.home-size{
+  margin: 0 auto;
+  width: 75%;
+}
+.trending-room{
+  background-size: 100vw 50vw;
+  width: 100vw;
+  height: 50vw;
+}
+.d-block{
+  width: 100vw;
+  height: 50vw;
+}
+
+
+/* feature section */
+#features{
+  padding: 10% 7%;
+}
+.feature-box{
   text-align: center;
-
+  padding:2%;
 }
-.heading{
-  align-self: center;
+.feature-box-start{
   text-align: center;
+  padding:2% 1% 2% 4%;
 }
-.form{
-  align-content: center;
-  margin: 50px 0px 10px 18.8vw ;
-
-  /* padding: 10px 10px 10px 30vw */
-}
-.form2{
-
-align-content: center;
-align-self: center;
-}
-.btn2{
-  margin:auto  ;
+.feature-box-end{
   text-align: center;
-  align-self: center;
-  align-content: center;
+  padding:2% 4% 2% 1%;
 }
+.icons{
+  color:black;
+  margin-bottom: 1rem;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+
+.pagination{
+  margin: 0 auto;
+  padding: 8px 3px;
+  width: 20%
+}
+
+.testimonial{
+ text-align: center;
+}
+.testimonial-background{
+background-image: url(/home/aakash/Desktop/room-tracker/image/background1.jpeg);
+background-repeat: no-repeat;
+background-size: 100vw 40vw;
+width: 100vw;
+height: 40vw;
+}
+
+.testimonial-image{
+
+  border-radius: 80%;
+  width:30%;
+  margin: 3%;
+  float: left;
+
+}
+.testimonial-item-2 {
+  padding: 13%;
+
+
+/* Features section */
+
+/* .room-image{
+  width: 16vw;
+} */
