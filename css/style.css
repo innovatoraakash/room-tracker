@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Russo+One');
+
 .bg {
-  background-image: url("/home/aakash/Desktop/room-tracker/image/room2.jpeg");
+  background-color: lightblue;
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: 100vw 65vw;
   width: 100vw;
@@ -10,18 +13,25 @@ body {
   text-align: center;
   background-color:#d7edef;
 }
-
-.btn2 {
-  margin: none;
-  padding: 1vw 0px;
+.btn2{
+  font-family: 'Merriweather', serif;
+  color: #d7edef; 
 }
 
+.title {
+  margin: 10vw auto 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family:'Merriweather', serif;
+  text-align: center;
+  color:black;
+  letter-spacing: 2px;
+}
 
 .description {
-  margin:  2px auto 4vw;
-  font-size: 2vw;
-  font-family: sans-serif;
-  color: black;
+  font-size: 1.5rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  color:black;
   text-align: center;
 }
 
@@ -32,14 +42,6 @@ body {
 .form2 {
   align-content: center;
   align-self: center;
-}
-
-#head-name {
-  margin: 10vw auto 5vw;
-  font-size: 5vw;
-  font-family: "serif-bold";
-  text-align: center;
-  color: #04102d
 }
 
 .home {
@@ -59,6 +61,28 @@ body {
   margin-right: auto;
   border-style: inset;
 
+}
+
+/* Features section */
+#features{
+  padding: 10% 2.5%;
+}
+.feature-box{
+  text-align: center;
+  padding:2%;
+}
+
+.icons{
+  color:black;
+  margin-bottom: 1rem;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+
+h3{
+  font-family: monospace;
+  font-weight: 600;
 }
 
 .logo {

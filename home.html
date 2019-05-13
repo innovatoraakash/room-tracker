@@ -7,11 +7,15 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Akronim|Alfa+Slab+One|Dancing+Script|Indie+Flower|Oswald|Pacifico|Stylish" rel="stylesheet">
+
+  <!-- font Awasome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>
-  <!-- top section -->
+  <!-- home section -->
   <section class="bg">
+
     <!-- navbar -->
 
     <div>
@@ -27,14 +31,14 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Contact</a>
                 <a class="dropdown-item" href="#">Another action</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
@@ -46,23 +50,54 @@
 
       <div class="home">
         <div class="heading">
-          <h1 id="head-name">ROOM TRACKER</h1>
+          <h1 class="title">ROOM TRACKER</h1>
           <p class="description">Now Stop Wondering in Search of Best Shelther <br>We Are Here For You </p>
         </div>
 
         <!-- search form -->
         <div class="input-group mb-3">
-          <input type="text" class="form-control bg-dark" placeholder="city name">
+          <input type="text" class="form-control bg-light" placeholder="Where do you want to live? ">
           <div class="input-group-append">
             <button class="btn btn-success" type="submit">Search</button>
           </div>
         </div>
         <div class="btn2">
-          <button type="button" class="btn btn-primary btn-lg col-2"> Post Room</button>
+          <h4>Looking for tenant ?  <button type="button" class="btn btn-info btn-lg"> Post Room</button></h4>
         </div>
       </div>
   </section>
   <hr>
+
+  <!-- features -->
+
+  <section id="features">
+    <div class="row">
+        <div class="feature-box col-lg-3">
+            <i class="fab fa-searchengin fa-4x icons" ></i>
+            <h3>Fast loading</h3>
+            <p>Fast loading and searching our room is our main priority. </p>
+        </div>
+      
+        <div class="feature-box col-lg-3 ">
+            <i class="fab fa-angellist fa-4x icons"></i>
+            <h3>Easy to use</h3>
+            <p>So easy to use and search the room.</p>
+        </div>
+     
+        <div class="feature-box col-lg-3">
+          <i class="far fa-check-circle fa-4x icons"></i>
+          <h3>Gurented to work</h3>
+          <p>Find the beautiful room for you.</p>
+        </div>
+    
+        <div class="feature-box col-lg-3">
+            <i class="fas fa-heart fa-4x icons"></i>
+            <h3>Responsive design</h3>
+            <p>Our website is responsive for all device.</p>
+          </div>
+    </div>
+  
+  </section>
 
   <!-- trending rooms carousel -->
   <section class="home-size">
