@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Russo+One');
+
+body {
+  text-align: center;
+  background-color: skyblue;
+}
+
+.home {
+  background: linear-gradient(60deg, #4cb510,30%, rgb(6, 84, 171, .8) 35%);
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+}
+
+.navbar {
+  position: relative;
+  padding: 2rem 5rem;
+  box-shadow: 5px 2px 10px black;
+  ;
+}
+
+.landing-window {
+  background: linear-gradient(60deg, rgba(0, 0, 0, 0), rgb(6, 84, 171, .5)), no-repeat center/117% url("room.jpg");
+  width: 100%;
+  padding: 2rem;
+}
+
+.information {
+  margin: 0 auto;
+  padding: 6% 0 12%;
+  width: 35rem;
+}
+
+.description {
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.input-group {
+  margin: 2rem 0 1rem;
+}
+
+.post-btn {
+  border-radius: 0 .25rem .25rem 0;
+  position: relative;
+  right: 5px;
+}
+
+.title {
+  margin: 10vw auto 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.home-size {
+  margin: 0 auto;
+  width: 75%;
+}
+
+/* Features section */
+#features {
+  width: 80%;
+  padding: 5rem 0;
+  margin: 40px auto;
+}
+
+.feature-box {
+  width: 80%;
+  margin: auto;
+}
+
+.icons {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: var(--success);
+}
+
+h3 {
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.logo {
+  width: 120px;
+}
+
+.testimonial {
+  color: black;
+  text-align: center;
+  padding: 8% 0 3%;
+}
+
+.testimonial-item {
+
+}
+
+.testimonial-image {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 100%;
+  margin :2rem 10px 5rem
+}
+
+.testimonial-item {
+  padding: 13% 17% 6%;
+}
+
+/* .room-image{
+  width: 16vw;
+
+} */
