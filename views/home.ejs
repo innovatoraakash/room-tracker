@@ -1,56 +1,50 @@
 <%- include("partials/header.ejs") -%>
-      <div class="home">
-        <div class="heading">
-          <h1 id="head-name">ROOM TRACKER</h1>
-          <p class="description">Now Stop Wondering in Search of Best Shelther <br>We Are Here For You </p>
-        </div>
+  
 
-        <!-- search form -->
-        <div class="input-group mb-3">
-          <input type="text" class="form-control bg-dark" placeholder="📍Where do you want to live? ">
-          <div class="input-group-append">
-            <button class="btn btn-success" type="submit">Search</button>
-          </div>
-        </div>
-        <div class="btn2">
-              <h4>Looking for tenant ?  <button type="button" class="btn btn-info btn-lg"> Post Room</button></h4>
-        </div>
+  <div class="landing-window">
+    <div class="information">
+      <h1 class="description">Now Stop Wondering in Search of Best Shelther <br>We Are Here For You </h1>
+  
+      <!-- search form and post button-->
+      <div class="input-group">
+        <input type="text" class="form-control bg-light" placeholder="Where do you want to live? ">
+        <button class="btn btn-primary post-btn" type="submit">Search</button>
       </div>
-  </section>
+  
+      <h4 class="post">Looking for tenant ? <button type="button" class="btn btn-success btn-lg"> Post Room</button></h4>
+     </div>
+  </div>
+  
+
   <hr>
   <section id="features">
-    <div class="row">
-        <div class="feature-box feature-box-start col-lg-3">
-            <i class="fab fa-searchengin fa-4x icons" ></i>
-            <h3>Fast loading</h3>
-            <p>Fast loading and searching our room is our main priority. </p>
+    <div class="features">
+      <div class="row">
+
+        <div class="feature-box col-md-4">
+          <i class="fab fa-searchengin fa-4x icons"></i>
+          <h3>Fast loading</h3>
+          <p>Fast loading and searching our room is our main priority. </p>
         </div>
 
-        <div class="feature-box col-lg-3 ">
-            <i class="fab fa-angellist fa-4x icons"></i>
-            <h3>Easy to use</h3>
-            <p>So easy to use and search the room.</p>
+        <div class="feature-box col-md-4 ">
+          <i class="fab fa-angellist fa-4x icons"></i>
+          <h3>Easy to use</h3>
+          <p>So easy to use and search the room.</p>
         </div>
 
-        <div class="feature-box feature-box-end col-lg-3">
+        <div class="feature-box col-md-4">
           <i class="far fa-check-circle fa-4x icons"></i>
           <h3>Gurented to work</h3>
           <p>Find the beautiful room for you.</p>
         </div>
-
-        <div class="feature-box col-lg-3">
-            <i class="fas fa-heart fa-4x icons"></i>
-            <h3>Responsive design</h3>
-            <p>Our website is responsive for all device.</p>
-          </div>
+      </div>
     </div>
-
   </section>
-
 
   <!-- trending rooms carousel -->
   <section  class="trending-room">
-    <div class="">
+    <div class="home-size">
       <div id="carouselExampleInterval" class="carousel slide " data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-interval="2000">
@@ -75,10 +69,10 @@
       </div>
     </div>
   </section>
-  <hr>
-
+  
   <!-- room grid -->
-  <section class="home-size">
+  <section class="room-grid">
+    <div class="home-size">
     <h2>Find room here</h2>
     <hr class="hr1">
     <div class="row ">
@@ -155,6 +149,7 @@
         </li>
       </ul>
     </nav>
+  </div>
   </section>
   <hr>
   <section>
