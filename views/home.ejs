@@ -47,16 +47,20 @@
     <div class="home-size">
       <div id="carouselExampleInterval" class="carousel slide " data-ride="carousel">
         <div class="carousel-inner">
+          
           <div class="carousel-item active" data-interval="2000">
-            <img src="image/room3.jpeg" class="d-block w-100" alt="...">
+            <img src="css/images/room001.jpeg" class="d-block w-100" alt="...">
+            <h1>Popular Rooms for you</h1>
+          </div>
 
-          </div>
-          <div class="carousel-item" data-interval="2000">
-            <img src="image/room1.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-interval="2000">
-            <img src="image/room2.jpeg" class="d-block w-100" alt="...">
-          </div>
+          <% roomCode.forEach(function(room) { %>
+       
+            <div class="carousel-item " data-interval="2000">
+              <img src="css/images/room<%=room.roomId%>.jpeg" class="d-block w-100" alt="...">
+              <a href="/room/<%=room.roomId%>" class="btn btn-success btn-lg">Book Now</a>
+            </div>
+          <% }); %>
+          
         </div>
         <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -76,60 +80,20 @@
     <h2>Find room here</h2>
     <hr class="hr1">
     <div class="row ">
-      <div class="col-sm-12 col-md-6 col-lg-4 room">
-        <div class="card">
-          <div class="card-body">
-            <img class="room-image" src="image/room1.jpeg" alt="room">
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+      <% roomCode.forEach(function(room) { %>
+        <div class="col-sm-12 col-md-6 col-lg-4 room">
+          <div class="card">
+            <div class="card-body">
+              <img class="room-image" src="css/images/room<%=room.roomId%>.jpeg " alt="room">
+              <p class="card-text"><%= room.price%></p>
+
+              <p class="card-text"><%= room.information %></p>
+              <p class="card-text"><%= room.address %></p>
+              <a href="/room/<%=room.roomId%>" class="btn btn-primary">Details</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 room">
-        <div class="card">
-          <div class="card-body">
-            <img src="image/room1.jpeg" alt="room">
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 room">
-        <div class="card">
-          <div class="card-body">
-            <img src="image/room1.jpeg" alt="room">
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 room">
-        <div class="card">
-          <div class="card-body">
-            <img src="image/room1.jpeg" alt="room">
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 room">
-        <div class="card">
-          <div class="card-body">
-            <img src="image/room1.jpeg" alt="room">
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 room">
-        <div class="card">
-          <div class="card-body">
-            <img src="image/room1.jpeg" alt="room">
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
+     <% }); %>
     </div>
     <nav aria-label="...">
       <ul class="pagination">
